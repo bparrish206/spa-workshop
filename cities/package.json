@@ -1,21 +1,29 @@
 {
-  "name": "workshop",
+  "name": "angular-seed",
   "version": "1.0.0",
-  "description": "Aerobatic SPA workshop",
+  "description": "Angular seed project for the Aerobatic platform",
+  "main": "grunt sim",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "grunt test",
-    "build": "grunt build"
+    "test": "grunt test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/aerobatic/spa-workshop.git"
+    "url": "git://github.com/aerobatic/angular-seed.git"
   },
   "keywords": [
     "aerobatic",
     "angular",
     "seed"
   ],
-  "homepage": "https://www.aerobatic.com",
+  "author": "David Von Lehman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aerobatic/angular-seed/issues"
+  },
+  "homepage": "https://github.com/aerobatic/angular-seed",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-uglify": "^0.5.0",
@@ -40,6 +48,6 @@
     "angular-aerobatic": "^1.0.0"
   },
   "_aerobatic": {
-    "appId": "ZJz3plk_D"
+    "appId": "de695155-ff40-4e37-8b07-134cd079fcde"
   }
 }

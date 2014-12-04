@@ -6,7 +6,7 @@ angular.module('services').factory('news', function($http, $q) {
   return function(city) {
     var defer = $q.defer();
     $http({
-      method: 'GET', 
+      method: 'GET',
       url: '/proxy',
       params: {
         url: 'http://news.google.com/news/feeds?pz=1&cf=all&hdlOnly=1&hl=en&geo=' + encodeURIComponent(city),
